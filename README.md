@@ -1,53 +1,78 @@
-# Hello Near 👋 
-[![](https://img.shields.io/badge/⋈%20Examples-Basics-green)](https://docs.near.org/tutorials/welcome)
-[![](https://img.shields.io/badge/Gitpod-Ready-orange)](https://gitpod.io/#/https://github.com/near-examples/hello-near-js)
-[![](https://img.shields.io/badge/Contract-js-yellow)](https://docs.near.org/develop/contracts/anatomy)
-[![](https://img.shields.io/badge/Frontend-JS-yellow)](https://docs.near.org/develop/integrate/frontend)
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fnear-examples%2Fhello-near-js%2Fbadge&style=flat&label=Tests)](https://actions-badge.atrox.dev/near-examples/hello-near-js/goto)
 
+# Vera Sneaker Documentation
 
-Hello NEAR! is a friendly decentralized App that stores a greeting message. It is one of the simplest smart contracts you can create in NEAR, and the perfect gateway to introduce yourself in the world of smart contracts.
+## Introduction
 
-![](https://docs.near.org/assets/images/hello-near-banner-af016d03e81a65653c9230b95a05fe4a.png)
+Vera Sneaker is a mobile-friendly web application built using Node.js, JavaScript, and Tailwind CSS CDN. The application interacts with the blockchain using NEAR, a blockchain platform designed for high-performance decentralized applications. This documentation provides an overview of the project, its features, and how to set it up.
 
+## Features
 
-# What This Example Shows
+1. Purchase Sneakers: Users can purchase sneakers using NEAR tokens.
+2. Transaction History: Users can view their transaction history.
 
-1. How to store and retrieve information in the NEAR network.
-2. How to integrate a smart contract in a web frontend.
+## Project Structure
 
-<br />
+The project structure is as follows:
 
-# Quickstart
-
-Clone this repository locally or [**open it in gitpod**](https://gitpod.io/#/https://github.com/near-examples/hello-near-js). Then follow these steps:
-
-### 1. Install Dependencies
-```bash
-npm install
+```
 ```
 
-### 2. Test the Contract
-Deploy your contract in a sandbox and simulate interactions from users.
+## Getting Started
 
-```bash
-npm test
-```
+To run the Vera Sneaker application locally, follow these steps:
 
-### 3. Deploy the Contract
-Build the contract and deploy it in a testnet account
-```bash
-npm run deploy
-```
+1. Clone the repository:
 
-### 4. Start the Frontend
-Start the web application to interact with your smart contract 
-```bash
-npm start
-```
+   ```bash
+   git clone https://github.com/your-username/vera-sneaker.git
+   ```
 
----
+2. Install dependencies:
 
-# Learn More
-1. Learn more about the contract through its [README](./contract/README.md).
-2. Check [**our documentation**](https://docs.near.org/develop/welcome).
+   ```bash
+   cd vera-sneaker
+   npm install
+   ```
+
+3. Set up environment variables:
+
+   - Create a `.env` file in the project root directory.
+   - Add the following variables to the `.env` file:
+
+     ```bash
+     NEAR_ACCOUNT_ID=your_near_account_id
+     NEAR_NETWORK=testnet
+     NEAR_CONTRACT_ID=your_contract_id
+     ```
+
+4. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+5. Access the application in your browser:
+
+   ```
+   http://localhost:3000
+   ```
+
+## Screenshots
+
+### Point of Sales System
+
+![Home Page](./public/images/sneaker1.jpg)
+
+## Resources
+
+- [NEAR Protocol Documentation](https://docs.near.org/)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+-  [RFID Libary for the Pico W](https://tailwindcss.com/docs)
+
+## Conclusion
+
+Vera Sneaker is a web application built with blockchain technology, specifically using the NEAR blockchain platform. It demonstrates the integration of blockchain functionality into a mobile-friendly web application. By leveraging NEAR's capabilities, users can securely purchase sneakers and track their transaction history. Feel free to explore the codebase and adapt it to your own projects.
+
+For any inquiries or support, please contact the project owner at [email protected]
