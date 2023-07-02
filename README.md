@@ -5,8 +5,9 @@
 
 Vera Sneaker is a mobile-friendly web application built using Node.js, JavaScript, and Tailwind CSS CDN. The application interacts with the blockchain using NEAR, a blockchain platform designed for high-performance decentralized applications. This documentation provides an overview of the project, its features, and how to set it up.
 
+Click link below to view business plan:
 ![Business Plan Document](https://docs.google.com/document/d/1wF1kLRF-vrXljHO09-fojqdd46jk_c8N-7IyGE5GT1M/edit?usp=sharing)
--explains the market,business model, ect...
+
 
 ## Features
 
